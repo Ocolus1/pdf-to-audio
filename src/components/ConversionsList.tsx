@@ -121,13 +121,13 @@ export function ConversionsList({
                           <Play className="h-5 w-5" />
                         )}
                       </button>
-                      <a
+                      {/* <a
                         href={conversion.audio_url}
                         download
                         className="px-3 py-1 text-sm bg-indigo-50 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 rounded-md hover:bg-indigo-100 dark:hover:bg-indigo-900/50"
                       >
                         Download
-                      </a>
+                      </a> */}
                     </div>
                   )}
                 </>
